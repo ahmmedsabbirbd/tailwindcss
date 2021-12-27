@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* composing utilities */
+.btn {
+	@apply border-2 font-bold pt-1 pb-1 pr-5 pl-5  text-green-900 rounded-full    dark:text-white    hover:bg-purple-700 duration-300 hover:text-white focus:outline-none			
+}
+
+.btn-big {
+	@apply font-extrabold;		
+}
