@@ -1,0 +1,150 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/*** THEME FUNCTION */
+
+.themefunction {
+  top: #eff6ff;
+}
+
+/*** SCREEN FUNCTION */
+
+@media (min-width: 991px) {
+  .x {
+    line-height: 10px;
+  }
+}
+
+/*** RESPONSIVE */
+
+.sabbir {
+  font-size:  100px;
+}
+
+@media (min-width: 640px) {
+  .me {
+    font-size:  100px;
+  }
+}
+
+/*** VARIANTS */
+
+.body-white {
+  background: #ffffff9c;
+}
+
+.hover\:body-white:hover {
+  background: #ffffff9c;
+}
+
+.body-white {
+  background: #ffffff9c;
+}
+
+.hover\:body-white:hover {
+  background: #ffffff9c;
+}
+
+/*** BASE */
+
+h1 {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+/*** COMPONENTS */
+
+.btn {
+  border-radius: 9999px;
+  border-width: 2px
+}
+
+.btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(109, 40, 217, var(--tw-bg-opacity));
+}
+
+.btn {
+  padding-top: 0.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(6, 78, 59, var(--tw-text-opacity));
+}
+
+.btn:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+}
+
+.btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn {
+  transition-duration: 300ms;
+}
+
+.btn-big {
+  font-weight: 800;
+}
+
+/*** UTILITIES */
+
+h1, .h1 {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+@media (min-width: 320px) {
+  .xd\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:sabbir {
+    font-size:  100px;
+  }
+}
+
+@media (min-width: 991px) {
+  .ls\:sabbir {
+    font-size:  100px;
+  }
+}

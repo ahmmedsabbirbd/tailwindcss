@@ -1,0 +1,78 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/*** THEME FUNCTION */
+.themefunction {
+	top: theme('colors.blue.50');
+}
+
+/*** SCREEN FUNCTION */
+@media screen(ls) {
+
+	.x {
+		line-height: 10px;
+	}
+}
+
+/*** RESPONSIVE */
+@responsive {
+	.sabbir {
+		font-size:  100px;
+	}
+}
+
+@screen sm {
+	.me {
+		font-size:  100px;
+	}
+}
+
+
+/*** VARIANTS */
+@variants hover {
+
+	.body-white {
+		background: #ffffff9c;
+	}
+
+}
+
+@variants hover {
+
+	.body-white {
+		background: #ffffff9c;
+	}
+
+}
+
+
+/*** BASE */
+@layer base {
+
+	h1 { 
+		font-size: 100px;
+		line-height: 110px;
+	}
+}
+
+/*** COMPONENTS */
+@layer components {
+
+	.btn {
+		@apply border-2 font-bold pt-1 pb-1 pr-5 pl-5  text-green-900 rounded-full    dark:text-white    hover:bg-purple-700 duration-300 hover:text-white focus:outline-none			
+	}
+
+	.btn-big {
+		@apply font-extrabold;		
+	}
+}
+
+/*** UTILITIES */
+@layer utilities {
+
+	h1, .h1 {
+		font-size: 35px;
+		line-height: 45px;
+	}
+}
